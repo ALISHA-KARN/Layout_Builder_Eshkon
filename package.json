@@ -15,12 +15,6 @@
     "react-dnd-html5-backend": "16.0.1",
     "lodash.debounce": "4.0.8"
   },
-  "devDependencies": {
-    "@types/react": "19.0.0",
-    "@types/react-dom": "19.0.0",
-    "loader-utils": "3.2.1",
-    "typescript": "5.7.2"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
