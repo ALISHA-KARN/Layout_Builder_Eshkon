@@ -1,0 +1,47 @@
+.preview {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-top: 2px dashed #ccc;
+  padding-top: 1rem;
+}
+
+.block {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 6px;
+  position: relative;
+}
+
+.block .controls {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.block .controls button {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.block-content.hero {
+  background: #e6f0ff;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.block-content.two-column {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.block-content.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}

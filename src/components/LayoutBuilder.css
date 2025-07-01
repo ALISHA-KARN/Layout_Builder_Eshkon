@@ -1,0 +1,30 @@
+.builder {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.block-picker {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.block-picker button {
+  padding: 0.5rem 1rem;
+  background: #0070f3;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.block-picker button:hover {
+  background: #0055cc;
+}
